@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - FastBite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Fast<span>Bite</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="commandes.html">Commandes</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Notre Menu</h1>
+        <p>Découvrez nos délicieuses préparations</p>
+    </section>
+
+    <section class="menu-categories">
+        <div class="category-carousel">
+            <div class="category-item active" data-category="all">Tous</div>
+            <div class="category-item" data-category="burgers">Burgers</div>
+            <div class="category-item" data-category="pizzas">Pizzas</div>
+            <div class="category-item" data-category="salades">Salades</div>
+            <div class="category-item" data-category="pates">Pâtes</div>
+            <div class="category-item" data-category="desserts">Desserts</div>
+            <div class="category-item" data-category="boissons">Boissons</div>
+        </div>
+    </section>
+
+    <section class="menu-grid">
+        <div class="menu-item" data-category="burgers">
+            <img src="images/Burger.jpeg" alt="Burger">
+            <div class="menu-item-content">
+                <h3>Burger Deluxe</h3>
+                <p>Pain brioché, steak haché, cheddar, salade, tomate</p>
+                <span class="price">12.90$</span>
+                <button class="btn-order">Commander</button>
+            </div>
+        </div>
+        <div class="menu-item" data-category="burgers">
+            <img src="images/burger1.jpg" alt="Burger">
+            <h3>Burger Bacon</h3>
+            <p>Pain brioché, steak, bacon croustillant, cheddar</p>
+            <span class="price">14.50$</span>
+            <button class="btn-order">Commander</button>
+        </div>
+        <div class="menu-item" data-category="pizzas">
+            <img src="images/pizza margherita.jpg" alt="Pizza">
+            <h3>Pizza Margherita</h3>
+            <p>Sauce tomate, mozzarella, basilic frais</p>
+            <span class="price">11.90$</span>
+            <button class="btn-order">Commander</button>
+        </div>
+        <div class="menu-item" data-category="pizzas">
+            <img src="images/pizza pepporoni.jpeg" alt="Pizza">
+            <h3>Pizza Pepperoni</h3>
+            <p>Sauce tomate, mozzarella, pepperoni, origan</p>
+            <span class="price">13.90$</span>
+            <button class="btn-order">Commander</button>
+        </div>
+        <div class="menu-item" data-category="salades">
+            <img src="images/Salades.jpeg" alt="Salade">
+            <h3>Salade César</h3>
+            <p>Poulet grillé, parmesan, croûtons, sauce césar</p>
+            <span class="price">10.90$</span>
+            <button class="btn-order">Commander</button>
+        </div>
+        <div class="menu-item" data-category="pates">
+            <img src="images/pates.jpg" alt="Pâtes">
+            <h3>Pasta Carbonara</h3>
+            <p>Spaghetti, œuf, pancetta, parmesan, poivre</p>
+            <span class="price">12.90$</span>
+            <button class="btn-order">Commander</button>
+        </div>
+        <div class="menu-item" data-category="desserts">
+            <img src="images/fondant au chocolat.jpeg" alt="Dessert">
+            <h3>Fondant Chocolat</h3>
+            <p>Cœur coulant, glace vanille, coulis</p>
+            <span class="price">6.90$</span>
+            <button class="btn-order">Commander</button>
+        </div>
+        <div class="menu-item" data-category="boissons">
+            <img src="images/milkshake.jpeg" alt="Boisson">
+            <h3>Milkshake</h3>
+            <p>Vanille, chocolat ou fraise</p>
+            <span class="price">4.90$</span>
+            <button class="btn-order">Commander</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 FastBite - Take Away Moderne</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

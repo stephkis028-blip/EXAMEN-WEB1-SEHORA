@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - FastBite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Fast<span>Bite</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="commandes.html">Commandes</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Contactez-nous</h1>
+        <p>Nous sommes à votre écoute</p>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Nos coordonnées</h2>
+                <div class="info-item">
+                    <span>📍</span>
+                    <div>
+                        <h3>Adresse</h3>
+                        <p>Kolewi, Du 30 juin, réference, école La Grandeur</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span>📞</span>
+                    <div>
+                        <h3>Téléphone</h3>
+                        <p>+ 243 971 838 025</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span>📧</span>
+                    <div>
+                        <h3>Email</h3>
+                        <p>fastbite02@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span>🕐</span>
+                    <div>
+                        <h3>Horaires</h3>
+                        <p>Lun - Sam : 11h30 - 22h</p>
+                        <p>Dim : 12h - 21h</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h2>Envoyez-nous un message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="contactName">Nom</label>
+                        <input type="text" id="contactName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Email</label>
+                        <input type="email" id="contactEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 FastBite - Take Away Moderne</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

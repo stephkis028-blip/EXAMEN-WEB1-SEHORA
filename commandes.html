@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commandes - FastBite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Fast<span>Bite</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="commandes.html" class="active">Commandes</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Passer une commande</h1>
+        <p>Remplissez le formulaire pour commander</p>
+    </section>
+
+    <section class="order-section">
+        <div class="order-container">
+            <div class="order-form">
+                <h2>Votre commande</h2>
+                <form id="orderForm">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" placeholder="**********" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Adresse de livraison</label>
+                        <input type="text" id="address" placeholder="Votre adresse" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="items">Articles commandés</label>
+                        <textarea id="items" rows="3" placeholder="Décrivez votre commande" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Heure de livraison souhaitée</label>
+                        <input type="time" id="time">
+                    </div>
+                    <button type="submit" class="btn-primary">Confirmer la commande</button>
+                </form>
+            </div>
+            <div class="order-info">
+                <h2>Commandes en cours</h2>
+                <div class="order-card">
+                    <h3>Commande #001</h3>
+                    <p>Burger Deluxe x2, Frites x1</p>
+                    <span class="status">En préparation</span>
+                    <span class="time">15 min</span>
+                </div>
+                <div class="order-card">
+                    <h3>Commande #002</h3>
+                    <p>Pizza Margherita x1, Salade x1</p>
+                    <span class="status">Prête</span>
+                    <span class="time">5 min</span>
+                </div>
+                <div class="order-card">
+                    <h3>Commande #003</h3>
+                    <p>Pasta Carbonara x1</p>
+                    <span class="status">En cours</span>
+                    <span class="time">20 min</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 FastBite - Take Away Moderne</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
